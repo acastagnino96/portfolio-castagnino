@@ -1,0 +1,101 @@
+.open-solutions{
+    @extend .opening;
+    background-color: $backgroundcolor;
+    background-image: url(../Images/solucioness.png);
+	background-position-y: 30%;
+    padding-top: 200px;
+    padding-bottom: 130px;
+    h1{
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 60px;
+        text-align: center;
+        letter-spacing: 0.2em;
+        color: $textosclaros;
+        padding: 20px;
+    }
+    .subtitulo {
+        padding: 40px;
+        h3 {
+            text-align: center;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 25px;
+            color: #A7A2A1;
+        }
+    }   
+}
+.secsoluciones{
+    background-color: $recuadros;
+    .missoluciones{
+        background-color: $recuadros;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        h2{
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 25px;
+            text-align: center;
+            color: $textosclaros;
+            margin: 20px;
+            padding-top: 10px;
+        }
+        .cuadro{
+            background: $recuadros;
+            box-shadow: -6px -8px 15px rgba(255, 255, 255, 0.2), 4px 6px 15px rgba(0, 0, 0, 0.25);
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 300px;
+            margin: 20px;
+            img{
+                width: 50%;
+                height: auto;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}
+.corterojo{
+    background: $rojos;
+    h2{
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 60px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: $textosclaros;
+        padding-top: 90px;
+        padding-bottom: 80px;
+    }
+}
+.contactame{
+    @extend .look-solutions;
+    .context{
+        h2 {
+            font-family: "Montserrat";
+            font-weight: 500;
+            font-size: 30px;
+            color: $textososcuros;
+            text-align: center;
+            padding: 40px;
+            padding-inline: 70px;
+        }
+        .btn {
+            border-radius: 30px;
+            border: none;
+            background-color: #FF725E;
+            color: $textosblancos;
+            font-family: "comfortaa";
+            font-weight: 500;
+            font-size: 18px;
+            margin: 40px;
+            text-align: center;
+            text-decoration: none;
+            padding-inline: 30px;
+        }
+    }
+}

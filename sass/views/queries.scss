@@ -1,0 +1,320 @@
+@media only screen and (max-width: 992px) {
+    .presentacion{
+        max-width: 500px;
+        .sobremi {
+            justify-content: center;
+            h2{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+        }
+    }
+        .cd-timeline{
+            .all-timeline{
+                .cd-timeline-block {
+                    -webkit-hyphens: auto; 
+                    -moz-hyphens: auto; 
+                    -ms-hyphens: auto; 
+                    hyphens: auto;
+                }
+            }
+        }
+    
+    // Inicio de queries página "proyectos"
+    .flecha{
+        transform: rotate(90deg);
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+
+    // Inicio de queries página "soluciones"
+    .missoluciones{
+        .cuadro{
+            max-width: 300px;
+            padding-inline: 20px;
+        }
+    }
+    
+    // Inicio de queries página "contacto"
+    .fondocaja{
+        .cajademensaje{
+            width: 400px;
+            height: 820px;
+            .datosdecontacto{
+                .telmaildire{
+                    width: 100%;
+                    height: 360px;        
+                    background: $backgroundcolor;
+                    border-radius: 30px 30px 0px 0px;
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    .acimagen{
+                        padding: 50px 0px 40px 150px;
+                    }
+                    .mail{
+                        padding: 20px 0px 0px 70px;
+                    }
+                    .tel{
+                        padding: 20px 0px 0px 70px;
+                    }
+                    .dire{
+                        padding: 20px 0px 0px 70px;
+                    }
+                }
+            }
+            .mensaje{
+                width: 100%;
+                height: 525px;
+                position: absolute;
+                right: 0px;
+                top: 400px;
+                .datospersonales{
+                    input{
+                        width: 290px;
+                        height: 27px;
+                    }
+                }
+                .pers{
+                    margin-top: 15px;
+                    padding-left: 15px;
+                }
+                .escribirmens{
+                    textarea{
+                        width: 320px;
+                        height: 160px;
+                        margin-top: 5px;
+                    }
+                } 
+            }
+        } 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .opening{
+        background-position-y: 25%;
+        h1{
+            font-size: 40px;
+			letter-spacing: 0.1em;
+            padding: 10px;
+        }
+        .nombre {
+            h2{
+                font-size: 18px;
+            }
+        }
+        .subtitulo {
+            h3{
+                font-size: 18px;
+            }
+        }
+    }
+    .aboutme{
+        .presentacion {
+            .sobremi {
+                p {
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+    .experience{
+        .experiencia {
+            h2 {
+                font-size: 40px;
+                letter-spacing: 0em;
+            }
+        }
+    }
+    .cd-timeline{
+        .all-timeline {
+            .cd-timeline-block {
+                padding: 20px;
+                .cd-timeline-dot {
+                    top: 20px;
+                    width: 20px;
+                    height: 20px;
+                    margin-left: -10px;
+                }
+                .cd-timeline-content{
+                    p{
+                        margin: 5px;
+                        line-height: 18px;
+                    }
+                }
+                .cd-timeline-last{
+                    p{
+                        padding: 20px 20px 20px 20px;
+                    }            
+                }
+            }
+        }
+    }
+
+    // Inicio de queries página "soluciones"
+    .corterojo{
+        h2{
+            font-size: 40px;
+            letter-spacing: 0em;            
+        }
+    }
+
+    // Inicio de queries página "proyectos"
+    .herramientas{
+        .tools{
+            .mistools{
+                .barraporcentaje{
+                    width: 305px;
+                }
+            }    
+        }
+    }
+
+    // Inicio de queries página "proyectos2"
+    .open-behancepro{
+        h1 {
+            font-size: 40px;
+			letter-spacing: 0.1em;
+            padding: 10px;
+        }
+    }
+    .flip-card{
+        margin: 10px;
+    }
+
+    // Inicio queries página "contacto"
+    .fondocaja{
+        .cajademensaje{
+            width: 330px;
+            height: 884px;
+            .datosdecontacto{
+                .telmaildire{
+                    width: 100%;
+                    height: 360px;        
+                    background: $backgroundcolor;
+                    border-radius: 30px 30px 0px 0px;
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    .acimagen{
+                        padding: 50px 0px 40px 120px;
+                    }
+                    .mail{
+                        padding: 20px 0px 0px 40px;
+                    }
+                    .tel{
+                        padding: 20px 0px 0px 40px;
+                    }
+                    .dire{
+                        padding: 20px 0px 0px 40px;
+                    }
+                }
+            }
+            .mensaje{
+                width: 100%;
+                height: 525px;
+                position: absolute;
+                right: 0px;
+                top: 400px;
+                .datospersonales{
+                    padding-left: 25px;
+                    input{
+                        width: 270px;
+                        height: 27px;
+                        margin-top: 5px;
+                    }
+                }
+                .pers{
+                    margin-top: 15px;
+                }
+                .escribirmens{
+                    textarea{
+                        width: 270px;
+                        height: 160px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    html{
+        -webkit-hyphens: auto; 
+        -moz-hyphens: auto; 
+        -ms-hyphens: auto; 
+        hyphens: auto;
+    }
+
+    .cd-timeline-block {
+        padding: 5px;
+        .cd-timeline-content{
+            p{
+                margin: 5px;
+                line-height: 18px;
+            }
+        }
+    }
+
+    // Inicio de queries página "proyectos"
+    .herramientas{
+        .tools{
+            .mistools{
+                .barraporcentaje{
+                    width: 205px;
+                }
+            }    
+        }
+    }
+
+    // Inicio queries página "contacto"
+    .fondocaja{
+        .cajademensaje{
+            width: 200px;
+            height: 920px;
+            .datosdecontacto{
+                .telmaildire{
+                    .acimagen{
+                        padding: 50px 0px 40px 60px;
+                    }
+                    .mail{
+                        display: none;
+                    }
+                    .tel{
+                        padding: 20px 0px 0px 10px;
+                    }
+                    .dire{
+                        padding: 20px 0px 0px 10px;
+                    }
+                }
+            }
+            .mensaje{
+                height: 525px;
+                .datospersonales{
+                    padding-left: 5px;
+                    input{
+                        width: 180px;
+                        margin-top: 5px;
+                    }
+                }
+                .pers{
+                    margin-top: 15px;
+                }
+                .escribirmens{
+                    textarea{
+                        width: 180px;
+                        height: 200px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

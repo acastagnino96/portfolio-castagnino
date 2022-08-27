@@ -1,0 +1,171 @@
+@keyframes iniciopagina{
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.open-contacto{
+    @extend .opening;
+	background-image: url(/Images/Contactoss.png);
+	background-position-y: 30%;
+    padding-top: 200px;
+    padding-bottom: 130px;
+    h1 {
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 60px;
+        text-align: center;
+        letter-spacing: 0.2em;
+        color: #595757;
+        padding: 20px;
+    }
+}
+
+@keyframes contactar{
+    0%{
+       transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.fondocaja{
+    background-color: $backgroundclaro;
+    animation-name: iniciopagina;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    padding-bottom: 150px;
+    .cajademensaje{
+        width: 884px;
+        height: 392px;
+        background: rgba(64, 64, 64, 0.9);
+        box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 30px;
+        position: relative;
+        animation-name: contactar;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-delay: 30ms;
+        .datosdecontacto{
+            .telmaildire{
+                width: 289px;
+                height: 392px;
+                background: $backgroundcolor;
+                border-radius: 30px 0px 0px 30px;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                .acimagen{
+                    padding-left: 100px;
+                    padding-top: 60px;
+                    padding-bottom: 40px;
+                }
+                h2{
+                    font-family: 'Comfortaa';
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: $textosclaros;
+                    padding-left: 10px;
+                }
+
+                $mapab: (
+                    pantalla: flex,
+                    espacio: 20px 0px 0px 30px,
+                );
+
+                .mail{
+                    height: 42px;
+                    display: map-get($map: $mapab, $key: pantalla);
+                    padding: map-get($map: $mapab, $key: espacio);
+                }
+                .tel{
+                    height: 45px;
+                    display: map-get($map: $mapab, $key: pantalla);
+                    padding: map-get($map: $mapab, $key: espacio);
+                }
+                .dire{
+                    height: 45px;
+                    display: map-get($map: $mapab, $key: pantalla);
+                    padding: map-get($map: $mapab, $key: espacio);
+                }
+            }
+        }
+        .mensaje{
+            width: 596px;
+            height: 100%;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            .datospersonales{
+                display: flex;
+                justify-content: center;
+                font-family: 'Comfortaa';
+                font-weight: 500;
+                font-size: 16px;
+                color: $textosclaros;
+                margin-top: 30px;
+                input{
+                    width: 400px;
+                    height: 27px;
+                    background: rgba(255, 255, 255, 0.8);
+                    border-radius: 13.5px;
+                    border: none;
+                    margin-left: 5px;
+                }
+            }
+            .pers{
+                margin-top: 15px;
+            }
+            input:focus{
+                background-color: #fff;
+            }
+            ::placeholder{
+                padding-top: 10px;
+                padding-left: 20px;
+                font-family: 'Comfortaa';
+            }
+            .escribirmens{
+                font-family: 'Comfortaa';
+                font-weight: 500;
+                font-size: 16px;
+                color: $textosclaros;
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                margin-top: 30px;
+                textarea{
+                    background: rgba(255, 255, 255, 0.8);
+                    border-radius: 13.5px;
+                    resize: none;
+                    width: 490px;
+                    height: 150px;
+                    margin-top: 5px;
+                }    
+            }
+            .enviarmens{
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                margin-top: -15px;
+                input{
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: $textosblancos;
+                    background: $rojos;
+                    border-radius: 60px;
+                    width: 149px;
+                    height: 29px;
+                    border: none;
+                }
+            }
+        }
+    }
+}

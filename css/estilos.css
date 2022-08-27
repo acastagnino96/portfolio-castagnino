@@ -1,0 +1,1281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 3;
+}
+.header .navbar {
+  background-color: #404040 !important;
+  min-height: 60px;
+}
+.header .navbar .navbar-brand {
+  font-family: "Comfortaa";
+}
+.header .navbar .nav-item {
+  font-family: "Comfortaa";
+  padding-inline: 15px;
+}
+
+.footer {
+  background-color: #404040;
+}
+.footer .logofooter {
+  font-family: "Comfortaa";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #CBCBCB;
+  padding-top: 35px;
+}
+.footer .redes {
+  text-align: center;
+  padding-top: 10px;
+}
+.footer .redes a {
+  font-size: 30px;
+  padding-inline: 10px;
+  color: #CBCBCB;
+}
+.footer .copy {
+  padding: 10px;
+}
+.footer .copy p {
+  font-family: "Comfortaa";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #CBCBCB;
+}
+
+@keyframes iniciopagina {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.opening, .open-solutions, .open-contacto, .open-proyects {
+  background-color: #E3DEDD;
+  flex-flow: column nowrap;
+  background-image: url(/Images/Portfolioss.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position-y: 10%;
+  padding-top: 160px;
+  padding-bottom: 90px;
+  animation-name: iniciopagina;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+.opening h1, .open-solutions h1, .open-contacto h1, .open-proyects h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #595757;
+  padding: 20px;
+}
+.opening .nombre, .open-solutions .nombre, .open-contacto .nombre, .open-proyects .nombre {
+  display: flex;
+  justify-content: center;
+  background: #E3DEDD;
+  box-shadow: -6px -8px 15px rgba(255, 255, 255, 0.8), 4px 6px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 60px;
+  margin-top: 40px;
+}
+.opening .nombre h2, .open-solutions .nombre h2, .open-contacto .nombre h2, .open-proyects .nombre h2 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  color: #595757;
+  text-align: center;
+  padding-top: 10px;
+  padding-inline: 20px;
+}
+.opening .subtitulo, .open-solutions .subtitulo, .open-contacto .subtitulo, .open-proyects .subtitulo {
+  padding: 40px;
+}
+.opening .subtitulo h3, .open-solutions .subtitulo h3, .open-contacto .subtitulo h3, .open-proyects .subtitulo h3 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  color: #A7A2A1;
+}
+.opening .subtitulo h4, .open-solutions .subtitulo h4, .open-contacto .subtitulo h4, .open-proyects .subtitulo h4 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #A7A2A1;
+}
+
+.aboutme {
+  background-color: #E3DEDD;
+}
+.aboutme .presentacion {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.aboutme .presentacion .sobremi {
+  max-width: 500px;
+}
+.aboutme .presentacion .sobremi h2 {
+  font-family: comfortaa;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #41403F;
+}
+.aboutme .presentacion .sobremi p {
+  font-family: comfortaa;
+  font-size: 18px;
+  line-height: 24px;
+  color: #41403F;
+  padding-top: 20px;
+}
+
+.experience {
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.experience .experiencia h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #A7A2A1;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.cd-timeline {
+  background-color: #404040;
+}
+.cd-timeline .all-timeline:before {
+  content: "";
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  height: 80%;
+  width: 6px;
+  background-color: #E3DEDD;
+  opacity: 0.2;
+  margin-left: -2px;
+}
+.cd-timeline .all-timeline {
+  max-width: 800px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #404040;
+  padding-top: 200px;
+}
+.cd-timeline .all-timeline .cd-timeline-first, .cd-timeline .all-timeline .cd-timeline-block .cd-timeline-last {
+  position: relative;
+  min-height: 100px;
+  background: #4A4A4A;
+  box-shadow: -6px -8px 15px rgba(255, 255, 255, 0.2), 4px 6px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-bottom: 10em;
+}
+.cd-timeline .all-timeline .cd-timeline-first h2, .cd-timeline .all-timeline .cd-timeline-block .cd-timeline-last h2 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #E3DEDD;
+  padding: 20px;
+}
+.cd-timeline .all-timeline .cd-timeline-block {
+  position: relative;
+  margin-bottom: 10em;
+  padding: 10px;
+  display: inline-block;
+}
+.cd-timeline .all-timeline .cd-timeline-block .cd-timeline-title {
+  width: 45%;
+  float: left;
+  background: #4A4A4A;
+  box-shadow: -4px -6px 15px rgba(255, 255, 255, 0.2), 4px 6px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px;
+}
+.cd-timeline .all-timeline .cd-timeline-block .cd-timeline-title h2 {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 28px;
+  color: #fff;
+  padding-top: 10px;
+}
+.cd-timeline .all-timeline .cd-timeline-block .cd-timeline-title h3 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #fff;
+}
+.cd-timeline .all-timeline .cd-timeline-block .cd-timeline-dot {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-left: -14px;
+  margin-top: 46px;
+  background: #FF725E;
+}
+.cd-timeline .all-timeline .cd-timeline-block .cd-timeline-content {
+  position: relative;
+  min-height: 154px;
+  border: 1px solid #FF725E;
+  border-radius: 10px;
+  width: 45%;
+}
+.cd-timeline .all-timeline .cd-timeline-block .cd-timeline-content p {
+  margin: 20px;
+  font-family: "Comfortaa";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+.cd-timeline .all-timeline .cd-timeline-block .cd-timeline-last {
+  padding: 20px;
+}
+.cd-timeline .all-timeline .cd-timeline-block .cd-timeline-last h2 {
+  color: #FF725E;
+}
+.cd-timeline .all-timeline .cd-timeline-block .cd-timeline-last p {
+  font-family: "comfortaa";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  padding: 30px 50px 50px 50px;
+}
+.cd-timeline .cd-timeline-block:nth-child(2n) .cd-timeline-content, .cd-timeline .cd-timeline-block:nth-child(odd) .cd-timeline-title {
+  float: right;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+.look-solutions, .contactame {
+  background-color: #E3DEDD;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.look-solutions .areacircles, .contactame .areacircles {
+  width: 100%;
+  height: 100vh;
+}
+.look-solutions .areacircles .circles, .contactame .areacircles .circles {
+  position: absolute;
+  width: 95%;
+  height: 100%;
+  overflow: hidden;
+}
+.look-solutions .areacircles .circles li, .contactame .areacircles .circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+.look-solutions .areacircles .circles li:nth-child(1), .contactame .areacircles .circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+.look-solutions .areacircles .circles li:nth-child(2), .contactame .areacircles .circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+.look-solutions .areacircles .circles li:nth-child(3), .contactame .areacircles .circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+.look-solutions .areacircles .circles li:nth-child(4), .contactame .areacircles .circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+.look-solutions .areacircles .circles li:nth-child(5), .contactame .areacircles .circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+.look-solutions .areacircles .circles li:nth-child(6), .contactame .areacircles .circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+.look-solutions .areacircles .circles li:nth-child(7), .contactame .areacircles .circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+.look-solutions .areacircles .circles li:nth-child(8), .contactame .areacircles .circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+.look-solutions .areacircles .circles li:nth-child(9), .contactame .areacircles .circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+.look-solutions .areacircles .circles li:nth-child(10), .contactame .areacircles .circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+.look-solutions .context, .contactame .context {
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.look-solutions .context h2, .contactame .context h2 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 30px;
+  color: #404040;
+  text-align: center;
+  padding: 40px;
+  padding-inline: 70px;
+}
+.look-solutions .context .btn, .contactame .context .btn {
+  border-radius: 30px;
+  border: none;
+  background-color: #FF725E;
+  color: #fff;
+  font-family: "comfortaa";
+  font-weight: 500;
+  font-size: 18px;
+  margin: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding-inline: 30px;
+}
+
+@keyframes iniciopagina {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.open-proyects {
+  background-color: #404040;
+  background-image: url(/Images/proyectoss.png);
+  background-position-y: 30%;
+  padding-top: 200px;
+  padding-bottom: 130px;
+}
+.open-proyects h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #E3DEDD;
+  padding: 20px;
+}
+.open-proyects .subtitulo {
+  padding: 40px;
+}
+.open-proyects .subtitulo h3 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #A7A2A1;
+}
+
+.secproyectos {
+  background-color: #4A4A4A;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.secproyectos h2 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  color: #FF725E;
+}
+.secproyectos p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #E3DEDD;
+  margin-top: 70px;
+}
+.secproyectos .misproyectos {
+  margin-top: 100px;
+}
+.secproyectos .misproyectos .procesodis {
+  min-height: 200px;
+  background: #4A4A4A;
+  box-shadow: -6px -8px 15px rgba(255, 255, 255, 0.2), 4px 6px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.secproyectos .misproyectos .procesodis p {
+  font-family: "Comfortaa";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #E3DEDD;
+  margin-top: 40px;
+}
+
+@keyframes b1 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes b2 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes b3 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 65%;
+  }
+}
+@keyframes b4 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+.herramientas {
+  background-color: #CBCBCB;
+  padding-bottom: 100px;
+}
+.herramientas h2 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  color: #404040;
+  padding-top: 150px;
+}
+.herramientas .tools h2 {
+  font-family: "Comfortaa";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #404040;
+}
+.herramientas .tools .mistools .barraporcentaje {
+  width: 405px;
+  height: 17px;
+  background-color: #E3DEDD;
+  border-radius: 30px;
+}
+.herramientas .tools .mistools .barraporcentaje .pintada-b1 {
+  width: 95%;
+  height: 17px;
+  background-color: #FF725E;
+  border-radius: 30px;
+  animation-name: b1;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+.herramientas .tools .mistools .barraporcentaje .pintada-b2 {
+  width: 85%;
+  height: 17px;
+  background-color: #FF725E;
+  border-radius: 30px;
+  animation-name: b2;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+.herramientas .tools .mistools .barraporcentaje .pintada-b3 {
+  width: 65%;
+  height: 17px;
+  background-color: #FF725E;
+  border-radius: 30px;
+  animation-name: b3;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+.herramientas .tools .mistools .barraporcentaje .pintada-b4 {
+  width: 60%;
+  height: 17px;
+  background-color: #FF725E;
+  border-radius: 30px;
+  animation-name: b4;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+.proyects {
+  background-color: #E3DEDD;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.proyects .areacircles {
+  width: 100%;
+  height: 100vh;
+}
+.proyects .areacircles .circles {
+  position: absolute;
+  width: 95%;
+  height: 100%;
+  overflow: hidden;
+}
+.proyects .areacircles .circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+.proyects .areacircles .circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+.proyects .areacircles .circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+.proyects .areacircles .circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+.proyects .areacircles .circles li:nth-child(4) {
+  left: 60%;
+  width: 120px;
+  height: 120px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+  background-image: url(/Images/Moulinex.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.proyects .areacircles .circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+.proyects .areacircles .circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+  background-image: url(/Images/HAVA.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.proyects .areacircles .circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+  background-image: url(/Images/ecobici.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.proyects .areacircles .circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+.proyects .areacircles .circles li:nth-child(9) {
+  left: 15%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  background-image: url(/Images/sonos.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.proyects .areacircles .circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+  background-image: url(/Images/Keepcool.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.proyects .works {
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.proyects .works h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #595757;
+  padding-inline: 20px;
+  margin-top: 40px;
+}
+.proyects .works .btn {
+  border-radius: 30px;
+  border: none;
+  background-color: #FF725E;
+  color: #fff;
+  font-family: "comfortaa";
+  font-weight: 500;
+  font-size: 18px;
+  margin: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding-inline: 30px;
+}
+
+.open-behancepro {
+  background-color: #E3DEDD;
+  padding-bottom: 150px;
+}
+.open-behancepro h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #595757;
+  padding-inline: 20px;
+  padding-top: 150px;
+  padding-bottom: 80px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin: 30px;
+}
+.flip-card .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+.flip-card .flip-card-inner img {
+  border-radius: 30px;
+}
+.flip-card .flip-card-front, .flip-card .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 30px;
+}
+.flip-card .flip-card-front {
+  background-color: #bbb;
+}
+.flip-card .flip-card-back {
+  background-color: #404040;
+  color: #fff;
+  padding-top: 60px;
+  font-family: comfortaa;
+  font-size: 18px;
+  transform: rotateY(180deg);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+@keyframes iniciopagina {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.open-contacto {
+  background-image: url(/Images/Contactoss.png);
+  background-position-y: 30%;
+  padding-top: 200px;
+  padding-bottom: 130px;
+}
+.open-contacto h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #595757;
+  padding: 20px;
+}
+
+@keyframes contactar {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.fondocaja {
+  background-color: #E3DEDD;
+  animation-name: iniciopagina;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  padding-bottom: 150px;
+}
+.fondocaja .cajademensaje {
+  width: 884px;
+  height: 392px;
+  background: rgba(64, 64, 64, 0.9);
+  box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  position: relative;
+  animation-name: contactar;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: 30ms;
+}
+.fondocaja .cajademensaje .datosdecontacto .telmaildire {
+  width: 289px;
+  height: 392px;
+  background: #404040;
+  border-radius: 30px 0px 0px 30px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.fondocaja .cajademensaje .datosdecontacto .telmaildire .acimagen {
+  padding-left: 100px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.fondocaja .cajademensaje .datosdecontacto .telmaildire h2 {
+  font-family: "Comfortaa";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #E3DEDD;
+  padding-left: 10px;
+}
+.fondocaja .cajademensaje .datosdecontacto .telmaildire .mail {
+  height: 42px;
+  display: flex;
+  padding: 20px 0px 0px 30px;
+}
+.fondocaja .cajademensaje .datosdecontacto .telmaildire .tel {
+  height: 45px;
+  display: flex;
+  padding: 20px 0px 0px 30px;
+}
+.fondocaja .cajademensaje .datosdecontacto .telmaildire .dire {
+  height: 45px;
+  display: flex;
+  padding: 20px 0px 0px 30px;
+}
+.fondocaja .cajademensaje .mensaje {
+  width: 596px;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.fondocaja .cajademensaje .mensaje .datospersonales {
+  display: flex;
+  justify-content: center;
+  font-family: "Comfortaa";
+  font-weight: 500;
+  font-size: 16px;
+  color: #E3DEDD;
+  margin-top: 30px;
+}
+.fondocaja .cajademensaje .mensaje .datospersonales input {
+  width: 400px;
+  height: 27px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 13.5px;
+  border: none;
+  margin-left: 5px;
+}
+.fondocaja .cajademensaje .mensaje .pers {
+  margin-top: 15px;
+}
+.fondocaja .cajademensaje .mensaje input:focus {
+  background-color: #fff;
+}
+.fondocaja .cajademensaje .mensaje ::placeholder {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-family: "Comfortaa";
+}
+.fondocaja .cajademensaje .mensaje .escribirmens {
+  font-family: "Comfortaa";
+  font-weight: 500;
+  font-size: 16px;
+  color: #E3DEDD;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 30px;
+}
+.fondocaja .cajademensaje .mensaje .escribirmens textarea {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 13.5px;
+  resize: none;
+  width: 490px;
+  height: 150px;
+  margin-top: 5px;
+}
+.fondocaja .cajademensaje .mensaje .enviarmens {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: -15px;
+}
+.fondocaja .cajademensaje .mensaje .enviarmens input {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  background: #FF725E;
+  border-radius: 60px;
+  width: 149px;
+  height: 29px;
+  border: none;
+}
+
+.open-solutions {
+  background-color: #404040;
+  background-image: url(../Images/solucioness.png);
+  background-position-y: 30%;
+  padding-top: 200px;
+  padding-bottom: 130px;
+}
+.open-solutions h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #E3DEDD;
+  padding: 20px;
+}
+.open-solutions .subtitulo {
+  padding: 40px;
+}
+.open-solutions .subtitulo h3 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #A7A2A1;
+}
+
+.secsoluciones {
+  background-color: #4A4A4A;
+}
+.secsoluciones .missoluciones {
+  background-color: #4A4A4A;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.secsoluciones .missoluciones h2 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #E3DEDD;
+  margin: 20px;
+  padding-top: 10px;
+}
+.secsoluciones .missoluciones .cuadro {
+  background: #4A4A4A;
+  box-shadow: -6px -8px 15px rgba(255, 255, 255, 0.2), 4px 6px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  margin: 20px;
+}
+.secsoluciones .missoluciones .cuadro img {
+  width: 50%;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.corterojo {
+  background: #FF725E;
+}
+.corterojo h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #E3DEDD;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.contactame .context h2 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 30px;
+  color: #404040;
+  text-align: center;
+  padding: 40px;
+  padding-inline: 70px;
+}
+.contactame .context .btn {
+  border-radius: 30px;
+  border: none;
+  background-color: #FF725E;
+  color: #fff;
+  font-family: "comfortaa";
+  font-weight: 500;
+  font-size: 18px;
+  margin: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding-inline: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+  .presentacion {
+    max-width: 500px;
+  }
+  .presentacion .sobremi {
+    justify-content: center;
+  }
+  .presentacion .sobremi h2 {
+    text-align: center;
+  }
+  .presentacion .sobremi p {
+    text-align: center;
+  }
+  .cd-timeline .all-timeline .cd-timeline-block {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+  .flecha {
+    transform: rotate(90deg);
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+  .missoluciones .cuadro {
+    max-width: 300px;
+    padding-inline: 20px;
+  }
+  .fondocaja .cajademensaje {
+    width: 400px;
+    height: 820px;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire {
+    width: 100%;
+    height: 360px;
+    background: #404040;
+    border-radius: 30px 30px 0px 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire .acimagen {
+    padding: 50px 0px 40px 150px;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire .mail {
+    padding: 20px 0px 0px 70px;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire .tel {
+    padding: 20px 0px 0px 70px;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire .dire {
+    padding: 20px 0px 0px 70px;
+  }
+  .fondocaja .cajademensaje .mensaje {
+    width: 100%;
+    height: 525px;
+    position: absolute;
+    right: 0px;
+    top: 400px;
+  }
+  .fondocaja .cajademensaje .mensaje .datospersonales input {
+    width: 290px;
+    height: 27px;
+  }
+  .fondocaja .cajademensaje .mensaje .pers {
+    margin-top: 15px;
+    padding-left: 15px;
+  }
+  .fondocaja .cajademensaje .mensaje .escribirmens textarea {
+    width: 320px;
+    height: 160px;
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .opening, .open-proyects, .open-contacto, .open-solutions {
+    background-position-y: 25%;
+  }
+  .opening h1, .open-proyects h1, .open-contacto h1, .open-solutions h1 {
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    padding: 10px;
+  }
+  .opening .nombre h2, .open-proyects .nombre h2, .open-contacto .nombre h2, .open-solutions .nombre h2 {
+    font-size: 18px;
+  }
+  .opening .subtitulo h3, .open-proyects .subtitulo h3, .open-contacto .subtitulo h3, .open-solutions .subtitulo h3 {
+    font-size: 18px;
+  }
+  .aboutme .presentacion .sobremi p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .experience .experiencia h2 {
+    font-size: 40px;
+    letter-spacing: 0em;
+  }
+  .cd-timeline .all-timeline .cd-timeline-block {
+    padding: 20px;
+  }
+  .cd-timeline .all-timeline .cd-timeline-block .cd-timeline-dot {
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+  }
+  .cd-timeline .all-timeline .cd-timeline-block .cd-timeline-content p {
+    margin: 5px;
+    line-height: 18px;
+  }
+  .cd-timeline .all-timeline .cd-timeline-block .cd-timeline-last p {
+    padding: 20px 20px 20px 20px;
+  }
+  .corterojo h2 {
+    font-size: 40px;
+    letter-spacing: 0em;
+  }
+  .herramientas .tools .mistools .barraporcentaje {
+    width: 305px;
+  }
+  .open-behancepro h1 {
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    padding: 10px;
+  }
+  .flip-card {
+    margin: 10px;
+  }
+  .fondocaja .cajademensaje {
+    width: 330px;
+    height: 884px;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire {
+    width: 100%;
+    height: 360px;
+    background: #404040;
+    border-radius: 30px 30px 0px 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire .acimagen {
+    padding: 50px 0px 40px 120px;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire .mail {
+    padding: 20px 0px 0px 40px;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire .tel {
+    padding: 20px 0px 0px 40px;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire .dire {
+    padding: 20px 0px 0px 40px;
+  }
+  .fondocaja .cajademensaje .mensaje {
+    width: 100%;
+    height: 525px;
+    position: absolute;
+    right: 0px;
+    top: 400px;
+  }
+  .fondocaja .cajademensaje .mensaje .datospersonales {
+    padding-left: 25px;
+  }
+  .fondocaja .cajademensaje .mensaje .datospersonales input {
+    width: 270px;
+    height: 27px;
+    margin-top: 5px;
+  }
+  .fondocaja .cajademensaje .mensaje .pers {
+    margin-top: 15px;
+  }
+  .fondocaja .cajademensaje .mensaje .escribirmens textarea {
+    width: 270px;
+    height: 160px;
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  html {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+  .cd-timeline-block {
+    padding: 5px;
+  }
+  .cd-timeline-block .cd-timeline-content p {
+    margin: 5px;
+    line-height: 18px;
+  }
+  .herramientas .tools .mistools .barraporcentaje {
+    width: 205px;
+  }
+  .fondocaja .cajademensaje {
+    width: 200px;
+    height: 920px;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire .acimagen {
+    padding: 50px 0px 40px 60px;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire .mail {
+    display: none;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire .tel {
+    padding: 20px 0px 0px 10px;
+  }
+  .fondocaja .cajademensaje .datosdecontacto .telmaildire .dire {
+    padding: 20px 0px 0px 10px;
+  }
+  .fondocaja .cajademensaje .mensaje {
+    height: 525px;
+  }
+  .fondocaja .cajademensaje .mensaje .datospersonales {
+    padding-left: 5px;
+  }
+  .fondocaja .cajademensaje .mensaje .datospersonales input {
+    width: 180px;
+    margin-top: 5px;
+  }
+  .fondocaja .cajademensaje .mensaje .pers {
+    margin-top: 15px;
+  }
+  .fondocaja .cajademensaje .mensaje .escribirmens textarea {
+    width: 180px;
+    height: 200px;
+    margin-top: 5px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
